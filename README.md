@@ -10,6 +10,15 @@ interpretation format
 - Recommend the best option given the desired length of meeting
 - Is adaptable to future changes (i.e. can bring in more info e.g. other blocked-off busy timeslots)
 
+## Requirements
+
+- matplotlib
+- seaborn
+- numpy
+- bs4
+
+(do a pip/pip3 install on your python directory)
+
 ## Task Breakdown
 
 - Scrape the data from [here](https://wish.wis.ntu.edu.sg/webexe/owa/aus_schedule.main). Enter a space in the search bar to generate all the course info.
