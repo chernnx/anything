@@ -139,9 +139,14 @@ generated_database = prepare_database()
 
 ## Prompt user for input of index numbers 
 # user_index = input("Enter index numbers, separated by comma: ")
-user_index = "10152,10208,10192,32464,00592,10182"
-user_index_list = user_index.split(',')
-print("List of indexes: " + user_index)
+yh = "10152,10208,10192,32464,00592,10182"
+lh = "28631,28051,28095,28027,29401,29531"
+jh = "58061,58026,10141,58036,58031,58044"
+kolyn = "19539,19560,19566,70074,72181,70340"
+ariel = "00067,00093,00882"
+total = yh + ',' + lh + ',' + jh + ',' + kolyn + ',' + ariel
+user_index_list = total.split(',')
+print("List of indexes: " + total)
 
 ## Process user input 
 for index in user_index_list:
@@ -152,4 +157,3 @@ for index in user_index_list:
 
 print_timetable(master_timetable,time_list)
 print_heatmap(master_timetable,time_list)
-

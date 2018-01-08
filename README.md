@@ -26,6 +26,9 @@ interpretation format
 - Master timetable stored in a 2-D numpy array
 
 # Outstanding items
+- Account for Online Courses (e.g. 28400,55050,70120,70130)
+- Easier input (don't need input index number manually, maybe SS a pic of their timetable or of the indexes)
+- Input sanity check (if index number wrong)
 - Multi-user input
 - Add course code/name to database
 - Remove the *^ from the course title
