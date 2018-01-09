@@ -115,7 +115,7 @@ def add_to_master_timetable(user_input_index,course_database,timetable,list_0000
 def print_heatmap(timetable,list_0000to2330):
     numpy_timetable = numpy.array(timetable)
     seaborn.set()
-    heatmap = seaborn.heatmap(numpy_timetable, yticklabels=1, linewidths=.25)
+    heatmap = seaborn.heatmap(numpy_timetable, yticklabels=1, annot=True, fmt="d", cmap="Reds") # linewidths=.25,
     # heatmap.gca().invert_yaxis()
     # heatmap.invert_yaxis()
 

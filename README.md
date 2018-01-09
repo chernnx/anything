@@ -35,4 +35,4 @@ interpretation format
 - Account for the 'Week' information in Remarks
 - Cases like ['00571', '\xa0', '1', '\xa0', '\xa0', '\xa0', '  Online Course ']
 - Desired meeting length 
-- If ‘Desired meeting length’ > 30mins, provide optimal meeting time for 3 cases: shorter (-15min), normal, longer (+15min). Else, provide optimal meeting time for the normal case and longer case
+- User can block off timeslots that they're not free 
